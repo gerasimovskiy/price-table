@@ -1,0 +1,73 @@
+body {
+	padding: 40px 0px;
+	font-family: Arial, sans-serif;
+	background-color: #DEDEDE;
+}
+main {
+	width: 80%;
+	margin: 0 auto;
+	min-height: 100%;
+}
+ul {
+	display: inline-block;
+	width: 33%;
+	margin: 0 -5px 0 0;
+	padding: 0;
+	text-align: center;
+	/*font-size: 0;*/
+}
+li {
+	list-style: none;
+	/*font-size: 14px;*/
+}
+.name {
+	background-color: #4B9D39;
+	font-size: 30px;
+	color: #21760F;
+	line-height: 1.5;
+}
+.cost {
+	background-color: #65B93F;
+	font-size: 48px;
+	color: #22771A;
+	font-weight: 700;
+	padding: 10px 0;
+}
+.in-year {
+	font-size: 14px;
+	background-color: #65B93F;
+	color: #22771A;
+	padding: 0;
+	padding-bottom: 20px;
+}
+.description {
+	background-color: white;
+	font-size: 17px;
+	line-height: 4;
+	
+}
+img {
+	width: 25px;
+	height: 25px;
+	margin-bottom: -5px;
+}
+a {
+	text-decoration: none;
+	background-color: #F9B473;
+	color: black;
+	padding: 10px 30px;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+}
+ul:hover .description {
+	background-color: #DFDDD1;
+}
+ul:hover li {
+	-webkit-transform: translate(10px, -10px);
+	   -moz-transform: translate(10px, -10px);
+	    -ms-transform: translate(10px, -10px);
+	     -o-transform: translate(10px, -10px);
+	        transform: translate(10px, -10px);
+	-webkit-box-shadow: 10px 10px 8px #C4CEC3;
+	        box-shadow: 10px 10px 8px #C4CEC3;
+}
